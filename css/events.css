@@ -45,6 +45,9 @@ h2 {
 }
 .event .date_container {
     margin: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 footer {
     position: relative;

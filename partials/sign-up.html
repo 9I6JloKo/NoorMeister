@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../css/sign-up.css">
     <script src="../js/main.js" defer></script>
 
-    <title>Sign up</title>
+    <title>Регистрация</title>
 </head>
 
 <body>
@@ -22,17 +22,17 @@
         </div>
         <nav>
             <ul>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="about_us.html">About Us</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
+                <li><a href="events.html">Мероприятия</a></li>
+                <li><a href="about_us.html">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
             </ul>
         </nav>
         <div class="header__login">
-            <a href="login.html">Login</a>
-            <a href="sign-up.html">Sign up</a>
+            <a href="login.html">Войти</a>
+            <a href="sign-up.html">Регистрация</a>
         </div>
         <div class="header__language">
-            <p><a>EST</a><br><a>RUS</a><br><a>ENG</a></p>
+            <p><a href="#">EST</a><br><a href="#">RUS</a><br><a href="#">ENG</a></p>
         </div>
         <div class="burger_button">
             <label for="check">
@@ -44,41 +44,38 @@
         </div>
         <div id="myLinks">
 
-            <a href="events.html">Events</a>
-            <a href="about_us.html">About Us</a>
-            <a href="contacts.html">Contacts</a>
+            <a href="events.html">Мероприятия</a>
+            <a href="about_us.html">О нас</a>
+            <a href="contacts.html">Контакты</a>
 
-            <a href="login.html">Login</a>
-            <a href="sign-up.html">Sign up</a>            <a class="links_language">RUS</a>
-            <a class="links_language">ENG</a>
-            <a class="links_language">EST</a>
+            <a href="login.html">Войти</a>
+            <a href="sign-up.html">Регистрация</a>            <a href="#" class="links_language">RUS</a>
+            <a href="#" class="links_language">ENG</a>
+            <a href="#" class="links_language">EST</a>
         </div>
     </header>
     <main>
-        <h2>Registration Form</h2>
+        <h2>Регистрация</h2>
 
-        <form action="/action_page.php" method="post">
-            <div class="imgcontainer">
-                <img src="../images/img_avatar.png" alt="Avatar" class="avatar">
-            </div>
-
+        <form action="" method="post">
             <div class="container">
-                <label for="uname"><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
+                <label for="name"><b>Имя пользователя</b></label>
+                <input type="text" placeholder="Имя пользователя" name="name" required>
 
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
+                <label for="password"><b>Пароль</b></label>
+                <input type="password" placeholder="Придумайте пароль" name="password" required>
 
-                <button type="submit">Sign up</button>
+                <button type="submit">Зарегистрироваться</button>
                 <label>
-                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                    
+                    <input type="checkbox" name="remember"> Запомнить
                 </label>
             </div>
         </form>
     </main>
 
-    <footer styles="footer{position: relative !important}">
-        <p>Noor Meister / 2022</p>
+    <footer>
+        <p>IVKHK-2022-NOORMEISTER</p>
     </footer>
 
 </body>
