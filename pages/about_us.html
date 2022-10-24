@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/reset.css" type="text/css" />
-    <link rel="stylesheet" href="../css/footer.css" type="text/css" />
+    <link rel="stylesheet" href="../css/about_us.css" type="text/css" />
     <link rel="stylesheet" href="../css/header.css" type="text/css" />
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/footer.css" type="text/css" />
     <script src="../js/main.js" defer></script>
-    <title>Вход</title>
-</head>
+    <title>О нас</title>
+  </head>
 
-<body>
+  <body>
 
     <header>
         <div class="header__img_container">
@@ -22,7 +21,7 @@
         <nav>
             <ul>
                 <li><a href="events.html">Мероприятия</a></li>
-                <li><a href="about_us.html">О нас</a></li>
+                <li><a class="active_link" href="about_us.html">О нас</a></li>
                 <li><a href="contacts.html">Контакты</a></li>
             </ul>
         </nav>
@@ -44,40 +43,40 @@
         <div id="myLinks">
 
             <a href="events.html">Мероприятия</a>
-            <a href="about_us.html">О нас</a>
+            <a class="active_link" href="about_us.html">О нас</a>
             <a href="contacts.html">Контакты</a>
 
             <a href="login.html">Войти</a>
-            <a href="sign-up.html">Регистрация</a>            <a href="#" class="links_language">RUS</a>
+            <a href="sign-up.html">Регистрация</a>             <a href="#" class="links_language">RUS</a>
             <a href="#" class="links_language">ENG</a>
             <a href="#" class="links_language">EST</a>
         </div>
     </header>
-
     <main>
-        <h2>Вход</h2>
-
-        <form action="" method="post">
-
-            <div class="container">
-                <label for="username"><b>Логин</b></label>
-                <input type="text" placeholder="Логин" name="username" required>
-
-                <label for="password"><b>Пароль</b></label>
-                <input type="password" placeholder="Пароль" name="password" required>
-
-                <button type="submit">Login</button>
-                <label>
-                    <input type="checkbox" checked="checked" name="remember"> Remember me
-                </label>
+        <div class="flex-about">
+            <div class="flex-about-left">
+                <h2>Together!</h2>
+                <p>
+                    Arvestades rahvatervise riske ning Vabariigi Valitsuse suuniseid ürituste korraldamisel, <strong>oleme otsustanud kutsemeistri­võistlused „Noor Meister 2022“ traditsioonilise festivalina sel kevadel </strong>
+                </p>
             </div>
-        </form>
+            <div class="div_img">
+                <img src="../images/noormeisteter.jpg" alt="">
+            </div>           
+        </div>
+        <div class="media">
+            <a href="https://www.youtube.com/channel/UCWtShZiWS9I1NH1UYZGgLiw">
+                <img src="../images/youtube.png" >
+            </a>
+            <a href="https://www.instagram.com/noormeister/?hl=en">
+                <img src="../images/instagram.png" >
+            </a>
+        </div>
     </main>
 
-    <footer styles="footer{position: relative !important}">
+    <footer>
         <p>IVKHK-2022-NOORMEISTER</p>
     </footer>
 
-</body>
-
+  </body>
 </html>
